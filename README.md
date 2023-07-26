@@ -92,9 +92,8 @@ You can use all option of [ServerRMQ](https://docs.nestjs.com/microservices/rabb
 | --- | --- | --- | --- |
 | waitingEndingHandlersIntervalMs | The time between two checks of the handlers in execution. Should be reasonably small | number | 5000 |
 | waitingEndingHandlersTimeoutMs | Timeout of pending executions, after which the server is shut down anyway and considers the executions to be finished. Use 0to disable | number | 500 |
-|  |  |  |  |
 
-Enable the `enableShutdownHooks` or close the app directly in `SIGTERM` handler,
+Enable the `enableShutdownHooks` or close the app directly in `SIGTERM` handler. See this example!
 
 Enjoy 😉
 

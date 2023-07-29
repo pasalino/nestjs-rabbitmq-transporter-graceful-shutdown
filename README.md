@@ -36,7 +36,7 @@ If you want to enter in deep on Custom Transporter of NestJS you can read the fo
 
 To use this example you should have installed:
 
-- 🐬 Docker and Docker Compose
+- 🐬 Docker
 - 🪢 Node 16+
 
 Follow the steps:

@@ -14,7 +14,7 @@ If you use an orchestrator (for instance K8s), you could face continuous shutdow
 
 ## 👷‍♂️ How to GracefulServerRMQ works
 
-The GracefulServerRMQ Custom Transporter uses all features of ServerRMQ of NestJS, in fact, it externs this class. 
+The GracefulServerRMQ Custom Transporter uses all features of ServerRMQ of NestJS, in fact, it extends this class. 
 
 To achieve the graceful shutdown without losing any execution, the custom implementation overrides the `handleMessage` method by adding a counter of the current executions. This counter allows the Custom Transporter to wait for all handlers before closing Rabbit Channel and Connection.
 
